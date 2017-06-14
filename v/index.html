@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>全网VIP视频在线解析</title>
+    <meta name="keywords" content="优酷VIP解析,爱奇艺VIP解析,腾讯VIP解析,乐视VIP解析,芒果VIP解析,全网视频解析,VIP在线解析,视频VIP在线解析,VIP视频在线解析">
+    <meta name="description" content="各位官人还在等什么，戳我进来！">
+    <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="bookmark" href="favicon.ico">
+    <!--[if lt IE 9]>
+    <script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="http://libs.useso.com/js/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+    <script type="text/javascript">function dihejk() {
+        var diz = document.getElementById("url").value;
+        var jkurl = document.getElementById("jk");
+        var jk = document.getElementById("jk").selectedIndex;
+        var jkv = jkurl.options[jk].value;
+        var cljurl = document.getElementById("player");
+        cljurl.src = jkv + diz
+    }</script>
+</head>
+<body>
+<div class="container" style="padding-top:20px;" id="wbk">
+    <div class="col-md-14 column">
+        <div class="panel panel-default">
+            <div id="kj" class="panel-body">
+                <iframe src="http://so.le.com/s?wd=%E8%BF%99%E4%B8%AA%E6%9D%80%E6%89%8B%E4%B8%8D%E5%A4%AA%E5%86%B7&from=pc&ref=click&click_area=search_button&query=%E8%BF%99%E4%B8%AA%E6%9D%80%E6%89%8B%E4%B8%8D%E5%A4%AA%E5%86%B7&is_default_query=0&module=suggest_list&eid=17187368553405550438&experiment_id=101%3A0&is_trigger=1" id="player" width="100%" height="600px" allowtransparency="true" frameborder="0" scrolling="yes"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-14 column">
+        <form method="get">
+            <div class="input-group" style="width: 100%;">
+                <span class="input-group-addon input-lg" style="width: 80px; ">选择接口</span>
+                <select class="form-control input-lg" id="jk">
+                    <option value="http://api.47ks.com/webcloud/?v=" selected>优酷、乐视、搜狐、爱奇艺、腾讯
+                    </option>
+                    <option value="http://jx.71ki.com/index.php?url=">优酷、乐视、搜狐、爱奇艺</option>
+                    <option value="http://www.wmxz.wang/video.php?url=">腾讯vip接口（腾讯超清)</option>
+                    <option value="http://www.yydy8.com/Common/?url=">通用vip接口（清晰度一般）</option>
+                    <option value="http://www.97zxkan.com/jiexi/97zxkanapi.php/?url=">通用vip接口（清晰度渣）
+                    </option>
+                </select></div>
+            <br>
+            <div class="input-group" style="width: 100%;"><span class="input-group-addon input-lg" style="width: 80px;">播放地址</span><input class="form-control input-lg" type="search" placeholder="输入播放地址" id="url"></div>
+            <br>
+            <div>
+                <button id="bf" type="button" class="btn btn-success btn-lg btn-block" onclick="dihejk()">Go
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="cnzz" align="center">
+     <script src="https://s13.cnzz.com/z_stat.php?id=1262142797&web_id=1262142797" language="JavaScript"></script>
+</div>
+</body>
+</html>
+
+
+
